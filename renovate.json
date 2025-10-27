@@ -2,6 +2,8 @@
   "extends": ["config:recommended"],
   "rebaseWhen": "conflicted",
   "minimumReleaseAge": "14 days",
+  // With renovate 42 this will be the default
+  "minimumReleaseAgeBehaviour": "timestamp-required",
   "labels": ["renovate"],
   "vulnerabilityAlerts": {
     "automerge": false
